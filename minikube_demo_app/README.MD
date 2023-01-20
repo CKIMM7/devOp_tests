@@ -9,7 +9,7 @@
 - `d` to see the application
 
 ## Usage
-- minikube ssh docker pull mongo:mongo:5.0
+- Run `minikube ssh docker pull mongo:5.0` to install mongo
 - Run `kubectl apply -f mongo-config.yaml` to create for the first time or update the mongo-config.yaml in the cluster
 - Run `kubectl apply -f mongo-secret.yaml` to create for the first time or update the mongo-secret.yaml in the cluster
 - Run `kubectl apply -f mongo-mongo.yaml` to create for the first time or update the mongo.yaml in the cluster
