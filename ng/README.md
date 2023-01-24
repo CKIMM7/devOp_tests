@@ -4,6 +4,7 @@
 - Run `docker build -t webserver_nginx .` to build a custom image
 - Run `docker run -it --rm -d -p 8080:80 --name nginx_web_server webserver_nginx` to make a container with the custom image
 - Run `docker top <container_name>` to see running processes
+- Run `docker-compose build` to build a container from the yaml file
 
 ## ngnix commands
 - Run `server nginx start` to stop nginx and its container
